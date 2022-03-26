@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<!--namespace=绑定一个指定的Dao/Mapper接口-->
+<mapper namespace="com.study.UserDao">
+    <select id="getUserListMap" resultType="map">
+        select * from user;
+    </select>
+
+    <select id="selectByName" resultType="map" parameterType="string">
+        select * from user where name like '%${name}%';
+    </select>
+
+    <insert id="addUserMap" parameterType="map">
+        insert into user(name, pwd) value (#{name}, #{pwd});
+    </insert>
+</mapper>

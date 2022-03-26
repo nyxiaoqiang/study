@@ -1,0 +1,416 @@
+[DEBUG][22-03-13][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][22-03-13][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][22-03-13][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][22-03-13][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][22-03-13][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][22-03-13][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][22-03-13][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Opening JDBC Connection
+[DEBUG][22-03-13][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 247944893.
+[DEBUG][22-03-13][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@ec756bd]
+[DEBUG][22-03-13][com.study.BlogMapper.selectByIf]==>  Preparing: select * from blog where 1=1 and author_name = ? 
+[DEBUG][22-03-13][com.study.BlogMapper.selectByIf]==> Parameters: 高级开发小强(String)
+[DEBUG][22-03-13][com.study.BlogMapper.selectByIf]<==      Total: 5
+[DEBUG][22-03-13][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@ec756bd]
+[DEBUG][22-03-13][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@ec756bd]
+[DEBUG][22-03-13][org.apache.ibatis.datasource.pooled.PooledDataSource]Returned connection 247944893 to pool.
+[DEBUG][22-03-13][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][22-03-13][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][22-03-13][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][22-03-13][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][22-03-13][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][22-03-13][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][22-03-13][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Opening JDBC Connection
+[DEBUG][22-03-13][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 898557489.
+[DEBUG][22-03-13][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@358ee631]
+[DEBUG][22-03-13][com.study.BlogMapper.selectByParams]==>  Preparing: select * from blog WHERE title = ? 
+[DEBUG][22-03-13][com.study.BlogMapper.selectByParams]==> Parameters: linux(String)
+[DEBUG][22-03-13][com.study.BlogMapper.selectByParams]<==      Total: 1
+[DEBUG][22-03-13][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@358ee631]
+[DEBUG][22-03-13][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@358ee631]
+[DEBUG][22-03-13][org.apache.ibatis.datasource.pooled.PooledDataSource]Returned connection 898557489 to pool.
+[DEBUG][22-03-13][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][22-03-13][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][22-03-13][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][22-03-13][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][22-03-13][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][22-03-13][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][22-03-13][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Opening JDBC Connection
+[DEBUG][22-03-13][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 247944893.
+[DEBUG][22-03-13][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@ec756bd]
+[DEBUG][22-03-13][com.study.BlogMapper.selectByParams]==>  Preparing: select * from blog WHERE view = ? 
+[DEBUG][22-03-13][com.study.BlogMapper.selectByParams]==> Parameters: 20(String)
+[DEBUG][22-03-13][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][22-03-13][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][22-03-13][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][22-03-13][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][22-03-13][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][22-03-13][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][22-03-13][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Opening JDBC Connection
+[DEBUG][22-03-13][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 247944893.
+[DEBUG][22-03-13][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@ec756bd]
+[DEBUG][22-03-13][com.study.BlogMapper.selectByParams]==>  Preparing: select * from blog WHERE view = ? 
+[DEBUG][22-03-13][com.study.BlogMapper.selectByParams]==> Parameters: 20(String)
+[DEBUG][22-03-13][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][22-03-13][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][22-03-13][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][22-03-13][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][22-03-13][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][22-03-13][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][22-03-13][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Opening JDBC Connection
+[DEBUG][22-03-13][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 247944893.
+[DEBUG][22-03-13][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@ec756bd]
+[DEBUG][22-03-13][com.study.BlogMapper.selectByParams]==>  Preparing: select * from blog WHERE author_name = ? 
+[DEBUG][22-03-13][com.study.BlogMapper.selectByParams]==> Parameters: 高级开发小强(String)
+[DEBUG][22-03-13][com.study.BlogMapper.selectByParams]<==      Total: 5
+[DEBUG][22-03-13][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@ec756bd]
+[DEBUG][22-03-13][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@ec756bd]
+[DEBUG][22-03-13][org.apache.ibatis.datasource.pooled.PooledDataSource]Returned connection 247944893 to pool.
+[DEBUG][22-03-13][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][22-03-13][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][22-03-13][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][22-03-13][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][22-03-13][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][22-03-13][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][22-03-13][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Opening JDBC Connection
+[DEBUG][22-03-13][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 898557489.
+[DEBUG][22-03-13][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@358ee631]
+[DEBUG][22-03-13][com.study.BlogMapper.testSql]==>  Preparing: select * from blog and title = ? and author_name = ? 
+[DEBUG][22-03-13][com.study.BlogMapper.testSql]==> Parameters: linux(String), 高级开发小强(String)
+[DEBUG][22-03-13][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][22-03-13][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][22-03-13][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][22-03-13][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][22-03-13][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][22-03-13][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][22-03-13][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Opening JDBC Connection
+[DEBUG][22-03-13][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 898557489.
+[DEBUG][22-03-13][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@358ee631]
+[DEBUG][22-03-13][com.study.BlogMapper.testSql]==>  Preparing: select * from blog where 1 = 1 and title = ? and author_name = ? 
+[DEBUG][22-03-13][com.study.BlogMapper.testSql]==> Parameters: linux(String), 高级开发小强(String)
+[DEBUG][22-03-13][com.study.BlogMapper.testSql]<==      Total: 1
+[DEBUG][22-03-13][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@358ee631]
+[DEBUG][22-03-13][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@358ee631]
+[DEBUG][22-03-13][org.apache.ibatis.datasource.pooled.PooledDataSource]Returned connection 898557489 to pool.
+[DEBUG][22-03-13][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][22-03-13][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][22-03-13][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][22-03-13][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][22-03-13][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][22-03-13][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][22-03-13][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Opening JDBC Connection
+[DEBUG][22-03-13][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 952486988.
+[DEBUG][22-03-13][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@38c5cc4c]
+[DEBUG][22-03-13][com.study.BlogMapper.queeryByIds]==>  Preparing: select * from blog WHERE ( id = ? or id = ? or id = ? ) 
+[DEBUG][22-03-13][com.study.BlogMapper.queeryByIds]==> Parameters: 1(Integer), 5(Integer), 9(Integer)
+[DEBUG][22-03-13][com.study.BlogMapper.queeryByIds]<==      Total: 0
+[DEBUG][22-03-13][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@38c5cc4c]
+[DEBUG][22-03-13][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@38c5cc4c]
+[DEBUG][22-03-13][org.apache.ibatis.datasource.pooled.PooledDataSource]Returned connection 952486988 to pool.
+[DEBUG][22-03-13][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][22-03-13][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][22-03-13][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][22-03-13][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][22-03-13][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][22-03-13][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][22-03-13][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Opening JDBC Connection
+[DEBUG][22-03-13][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 932285561.
+[DEBUG][22-03-13][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@37918c79]
+[DEBUG][22-03-13][com.study.BlogMapper.queeryByIds]==>  Preparing: select * from blog WHERE ( id = ? or id = ? or id = ? ) 
+[DEBUG][22-03-13][com.study.BlogMapper.queeryByIds]==> Parameters: num00001(String), num00005(String), num00009(String)
+[DEBUG][22-03-13][com.study.BlogMapper.queeryByIds]<==      Total: 3
+[DEBUG][22-03-13][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@37918c79]
+[DEBUG][22-03-13][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@37918c79]
+[DEBUG][22-03-13][org.apache.ibatis.datasource.pooled.PooledDataSource]Returned connection 932285561 to pool.
+[DEBUG][22-03-13][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][22-03-13][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][22-03-13][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][22-03-13][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][22-03-13][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][22-03-13][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][22-03-13][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Opening JDBC Connection
+[DEBUG][22-03-13][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 932285561.
+[DEBUG][22-03-13][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@37918c79]
+[DEBUG][22-03-13][com.study.BlogMapper.queeryByIds]==>  Preparing: select * from blog WHERE ( id = ? or id = ? or id = ? ) 
+[DEBUG][22-03-13][com.study.BlogMapper.queeryByIds]==> Parameters: num00001(String), num00005(String), num00009(String)
+[DEBUG][22-03-13][com.study.BlogMapper.queeryByIds]<==      Total: 3
+[DEBUG][22-03-13][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@37918c79]
+[DEBUG][22-03-13][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@37918c79]
+[DEBUG][22-03-13][org.apache.ibatis.datasource.pooled.PooledDataSource]Returned connection 932285561 to pool.
+[DEBUG][22-03-13][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][22-03-13][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][22-03-13][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][22-03-13][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][22-03-13][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][22-03-13][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][22-03-13][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Opening JDBC Connection
+[DEBUG][22-03-13][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 932285561.
+[DEBUG][22-03-13][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@37918c79]
+[DEBUG][22-03-13][com.study.BlogMapper.queeryByIds]==>  Preparing: select * from blog WHERE ( id = ? or id = ? or id = ? ) 
+[DEBUG][22-03-13][com.study.BlogMapper.queeryByIds]==> Parameters: num00001(String), num00005(String), num00009(String)
+[DEBUG][22-03-13][com.study.BlogMapper.queeryByIds]<==      Total: 3
+[DEBUG][22-03-13][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@37918c79]
+[DEBUG][22-03-13][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@37918c79]
+[DEBUG][22-03-13][org.apache.ibatis.datasource.pooled.PooledDataSource]Returned connection 932285561 to pool.
+[DEBUG][22-03-14][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][22-03-14][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][22-03-14][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][22-03-14][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][22-03-14][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][22-03-14][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][22-03-14][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Opening JDBC Connection
+[DEBUG][22-03-14][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 990355670.
+[DEBUG][22-03-14][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@3b07a0d6]
+[DEBUG][22-03-14][com.study.BlogMapper.selectByIf]==>  Preparing: select * from blog where 1=1 and author_name = ? 
+[DEBUG][22-03-14][com.study.BlogMapper.selectByIf]==> Parameters: 高级开发小强(String)
+[DEBUG][22-03-14][com.study.BlogMapper.selectByIf]<==      Total: 5
+[DEBUG][22-03-14][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@3b07a0d6]
+[DEBUG][22-03-14][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@3b07a0d6]
+[DEBUG][22-03-14][org.apache.ibatis.datasource.pooled.PooledDataSource]Returned connection 990355670 to pool.
+[DEBUG][22-03-14][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][22-03-14][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][22-03-14][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][22-03-14][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][22-03-14][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][22-03-14][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][22-03-14][com.study.BlogMapper]Cache Hit Ratio [com.study.BlogMapper]: 0.0
+[DEBUG][22-03-14][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Opening JDBC Connection
+[DEBUG][22-03-14][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 1997963191.
+[DEBUG][22-03-14][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@77167fb7]
+[DEBUG][22-03-14][com.study.BlogMapper.selectByIf]==>  Preparing: select * from blog where 1=1 and author_name = ? 
+[DEBUG][22-03-14][com.study.BlogMapper.selectByIf]==> Parameters: 高级开发小强(String)
+[DEBUG][22-03-14][com.study.BlogMapper.selectByIf]<==      Total: 5
+[DEBUG][22-03-14][com.study.BlogMapper]Cache Hit Ratio [com.study.BlogMapper]: 0.0
+[DEBUG][22-03-14][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@77167fb7]
+[DEBUG][22-03-14][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@77167fb7]
+[DEBUG][22-03-14][org.apache.ibatis.datasource.pooled.PooledDataSource]Returned connection 1997963191 to pool.
+[DEBUG][22-03-14][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][22-03-14][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][22-03-14][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][22-03-14][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][22-03-14][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][22-03-14][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][22-03-14][com.study.BlogMapper]Cache Hit Ratio [com.study.BlogMapper]: 0.0
+[DEBUG][22-03-14][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Opening JDBC Connection
+[DEBUG][22-03-14][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 1997963191.
+[DEBUG][22-03-14][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@77167fb7]
+[DEBUG][22-03-14][com.study.BlogMapper.selectByIf]==>  Preparing: select * from blog where 1=1 and author_name = ? 
+[DEBUG][22-03-14][com.study.BlogMapper.selectByIf]==> Parameters: 高级开发小强(String)
+[DEBUG][22-03-14][com.study.BlogMapper.selectByIf]<==      Total: 5
+[DEBUG][22-03-14][com.study.BlogMapper]Cache Hit Ratio [com.study.BlogMapper]: 0.0
+[DEBUG][22-03-14][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@77167fb7]
+[DEBUG][22-03-14][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@77167fb7]
+[DEBUG][22-03-14][org.apache.ibatis.datasource.pooled.PooledDataSource]Returned connection 1997963191 to pool.
+[DEBUG][22-03-14][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][22-03-14][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][22-03-14][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][22-03-14][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][22-03-14][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][22-03-14][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][22-03-14][com.study.BlogMapper]Cache Hit Ratio [com.study.BlogMapper]: 0.0
+[DEBUG][22-03-14][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Opening JDBC Connection
+[DEBUG][22-03-14][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 1997963191.
+[DEBUG][22-03-14][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@77167fb7]
+[DEBUG][22-03-14][com.study.BlogMapper.selectByIf]==>  Preparing: select * from blog where 1=1 and author_name = ? 
+[DEBUG][22-03-14][com.study.BlogMapper.selectByIf]==> Parameters: 高级开发小强(String)
+[DEBUG][22-03-14][com.study.BlogMapper.selectByIf]<==      Total: 5
+[DEBUG][22-03-14][com.study.BlogMapper]Cache Hit Ratio [com.study.BlogMapper]: 0.0
+[DEBUG][22-03-14][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@77167fb7]
+[DEBUG][22-03-14][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@77167fb7]
+[DEBUG][22-03-14][org.apache.ibatis.datasource.pooled.PooledDataSource]Returned connection 1997963191 to pool.
+[DEBUG][22-03-14][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][22-03-14][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][22-03-14][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][22-03-14][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][22-03-14][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][22-03-14][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][22-03-14][com.study.BlogMapper]Cache Hit Ratio [com.study.BlogMapper]: 0.0
+[DEBUG][22-03-14][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Opening JDBC Connection
+[DEBUG][22-03-14][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 1997963191.
+[DEBUG][22-03-14][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@77167fb7]
+[DEBUG][22-03-14][com.study.BlogMapper.selectByIf]==>  Preparing: select * from blog where 1=1 and author_name = ? 
+[DEBUG][22-03-14][com.study.BlogMapper.selectByIf]==> Parameters: 高级开发小强(String)
+[DEBUG][22-03-14][com.study.BlogMapper.selectByIf]<==      Total: 5
+[DEBUG][22-03-14][com.study.BlogMapper]Cache Hit Ratio [com.study.BlogMapper]: 0.0
+[DEBUG][22-03-14][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Opening JDBC Connection
+[DEBUG][22-03-14][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 1030228826.
+[DEBUG][22-03-14][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@3d680b5a]
+[DEBUG][22-03-14][com.study.BlogMapper.selectByIf]==>  Preparing: select * from blog where 1=1 and author_name = ? 
+[DEBUG][22-03-14][com.study.BlogMapper.selectByIf]==> Parameters: 高级开发小强(String)
+[DEBUG][22-03-14][com.study.BlogMapper.selectByIf]<==      Total: 5
+[DEBUG][22-03-14][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@77167fb7]
+[DEBUG][22-03-14][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@77167fb7]
+[DEBUG][22-03-14][org.apache.ibatis.datasource.pooled.PooledDataSource]Returned connection 1997963191 to pool.
+[DEBUG][22-03-14][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@3d680b5a]
+[DEBUG][22-03-14][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@3d680b5a]
+[DEBUG][22-03-14][org.apache.ibatis.datasource.pooled.PooledDataSource]Returned connection 1030228826 to pool.
+[DEBUG][22-03-14][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][22-03-14][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][22-03-14][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][22-03-14][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][22-03-14][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][22-03-14][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][22-03-14][com.study.BlogMapper]Cache Hit Ratio [com.study.BlogMapper]: 0.0
+[DEBUG][22-03-14][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Opening JDBC Connection
+[DEBUG][22-03-14][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 1997963191.
+[DEBUG][22-03-14][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@77167fb7]
+[DEBUG][22-03-14][com.study.BlogMapper.selectByIf]==>  Preparing: select * from blog where 1=1 and author_name = ? 
+[DEBUG][22-03-14][com.study.BlogMapper.selectByIf]==> Parameters: 高级开发小强(String)
+[DEBUG][22-03-14][com.study.BlogMapper.selectByIf]<==      Total: 5
+[DEBUG][22-03-14][com.study.BlogMapper]Cache Hit Ratio [com.study.BlogMapper]: 0.0
+[DEBUG][22-03-14][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Opening JDBC Connection
+[DEBUG][22-03-14][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 1030228826.
+[DEBUG][22-03-14][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@3d680b5a]
+[DEBUG][22-03-14][com.study.BlogMapper.selectByIf]==>  Preparing: select * from blog where 1=1 and author_name = ? 
+[DEBUG][22-03-14][com.study.BlogMapper.selectByIf]==> Parameters: 高级开发小强(String)
+[DEBUG][22-03-14][com.study.BlogMapper.selectByIf]<==      Total: 5
+[DEBUG][22-03-14][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@77167fb7]
+[DEBUG][22-03-14][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@77167fb7]
+[DEBUG][22-03-14][org.apache.ibatis.datasource.pooled.PooledDataSource]Returned connection 1997963191 to pool.
+[DEBUG][22-03-14][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@3d680b5a]
+[DEBUG][22-03-14][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@3d680b5a]
+[DEBUG][22-03-14][org.apache.ibatis.datasource.pooled.PooledDataSource]Returned connection 1030228826 to pool.
+[DEBUG][22-03-14][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][22-03-14][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][22-03-14][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][22-03-14][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][22-03-14][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][22-03-14][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][22-03-14][com.study.BlogMapper]Cache Hit Ratio [com.study.BlogMapper]: 0.0
+[DEBUG][22-03-14][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Opening JDBC Connection
+[DEBUG][22-03-14][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 1997963191.
+[DEBUG][22-03-14][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@77167fb7]
+[DEBUG][22-03-14][com.study.BlogMapper.selectByIf]==>  Preparing: select * from blog where 1=1 and author_name = ? 
+[DEBUG][22-03-14][com.study.BlogMapper.selectByIf]==> Parameters: 高级开发小强(String)
+[DEBUG][22-03-14][com.study.BlogMapper.selectByIf]<==      Total: 5
+[DEBUG][22-03-14][com.study.BlogMapper]Cache Hit Ratio [com.study.BlogMapper]: 0.0
+[DEBUG][22-03-14][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Opening JDBC Connection
+[DEBUG][22-03-14][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 1030228826.
+[DEBUG][22-03-14][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@3d680b5a]
+[DEBUG][22-03-14][com.study.BlogMapper.selectByIf]==>  Preparing: select * from blog where 1=1 and author_name = ? 
+[DEBUG][22-03-14][com.study.BlogMapper.selectByIf]==> Parameters: 高级开发小强(String)
+[DEBUG][22-03-14][com.study.BlogMapper.selectByIf]<==      Total: 5
+[DEBUG][22-03-14][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@77167fb7]
+[DEBUG][22-03-14][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@77167fb7]
+[DEBUG][22-03-14][org.apache.ibatis.datasource.pooled.PooledDataSource]Returned connection 1997963191 to pool.
+[DEBUG][22-03-14][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@3d680b5a]
+[DEBUG][22-03-14][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@3d680b5a]
+[DEBUG][22-03-14][org.apache.ibatis.datasource.pooled.PooledDataSource]Returned connection 1030228826 to pool.
+[DEBUG][22-03-14][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][22-03-14][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][22-03-14][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][22-03-14][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][22-03-14][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][22-03-14][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][22-03-14][com.study.BlogMapper]Cache Hit Ratio [com.study.BlogMapper]: 0.0
+[DEBUG][22-03-14][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Opening JDBC Connection
+[DEBUG][22-03-14][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 1997963191.
+[DEBUG][22-03-14][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@77167fb7]
+[DEBUG][22-03-14][com.study.BlogMapper.selectByIf]==>  Preparing: select * from blog where 1=1 and author_name = ? 
+[DEBUG][22-03-14][com.study.BlogMapper.selectByIf]==> Parameters: 高级开发小强(String)
+[DEBUG][22-03-14][com.study.BlogMapper.selectByIf]<==      Total: 5
+[DEBUG][22-03-14][com.study.BlogMapper]Cache Hit Ratio [com.study.BlogMapper]: 0.0
+[DEBUG][22-03-14][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Opening JDBC Connection
+[DEBUG][22-03-14][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 1030228826.
+[DEBUG][22-03-14][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@3d680b5a]
+[DEBUG][22-03-14][com.study.BlogMapper.selectByIf]==>  Preparing: select * from blog where 1=1 and author_name = ? 
+[DEBUG][22-03-14][com.study.BlogMapper.selectByIf]==> Parameters: 高级开发小强(String)
+[DEBUG][22-03-14][com.study.BlogMapper.selectByIf]<==      Total: 5
+[DEBUG][22-03-14][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@77167fb7]
+[DEBUG][22-03-14][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@77167fb7]
+[DEBUG][22-03-14][org.apache.ibatis.datasource.pooled.PooledDataSource]Returned connection 1997963191 to pool.
+[DEBUG][22-03-14][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@3d680b5a]
+[DEBUG][22-03-14][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@3d680b5a]
+[DEBUG][22-03-14][org.apache.ibatis.datasource.pooled.PooledDataSource]Returned connection 1030228826 to pool.
+[DEBUG][22-03-14][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][22-03-14][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][22-03-14][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][22-03-14][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][22-03-14][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][22-03-14][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][22-03-14][com.study.BlogMapper]Cache Hit Ratio [com.study.BlogMapper]: 0.0
+[DEBUG][22-03-14][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Opening JDBC Connection
+[DEBUG][22-03-14][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 1997963191.
+[DEBUG][22-03-14][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@77167fb7]
+[DEBUG][22-03-14][com.study.BlogMapper.selectByIf]==>  Preparing: select * from blog where 1=1 and author_name = ? 
+[DEBUG][22-03-14][com.study.BlogMapper.selectByIf]==> Parameters: 高级开发小强(String)
+[DEBUG][22-03-14][com.study.BlogMapper.selectByIf]<==      Total: 5
+[DEBUG][22-03-14][com.study.BlogMapper]Cache Hit Ratio [com.study.BlogMapper]: 0.0
+[DEBUG][22-03-14][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Opening JDBC Connection
+[DEBUG][22-03-14][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 1030228826.
+[DEBUG][22-03-14][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@3d680b5a]
+[DEBUG][22-03-14][com.study.BlogMapper.selectByIf]==>  Preparing: select * from blog where 1=1 and author_name = ? 
+[DEBUG][22-03-14][com.study.BlogMapper.selectByIf]==> Parameters: 高级开发小强(String)
+[DEBUG][22-03-14][com.study.BlogMapper.selectByIf]<==      Total: 5
+[DEBUG][22-03-14][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@77167fb7]
+[DEBUG][22-03-14][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@77167fb7]
+[DEBUG][22-03-14][org.apache.ibatis.datasource.pooled.PooledDataSource]Returned connection 1997963191 to pool.
+[DEBUG][22-03-14][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@3d680b5a]
+[DEBUG][22-03-14][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@3d680b5a]
+[DEBUG][22-03-14][org.apache.ibatis.datasource.pooled.PooledDataSource]Returned connection 1030228826 to pool.
+[DEBUG][22-03-14][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][22-03-14][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][22-03-14][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][22-03-14][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][22-03-14][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][22-03-14][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][22-03-14][com.study.BlogMapper]Cache Hit Ratio [com.study.BlogMapper]: 0.0
+[DEBUG][22-03-14][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Opening JDBC Connection
+[DEBUG][22-03-14][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 1997963191.
+[DEBUG][22-03-14][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@77167fb7]
+[DEBUG][22-03-14][com.study.BlogMapper.selectByIf]==>  Preparing: select * from blog where 1=1 and author_name = ? 
+[DEBUG][22-03-14][com.study.BlogMapper.selectByIf]==> Parameters: 高级开发小强(String)
+[DEBUG][22-03-14][com.study.BlogMapper.selectByIf]<==      Total: 5
+[DEBUG][22-03-14][com.study.BlogMapper]Cache Hit Ratio [com.study.BlogMapper]: 0.0
+[DEBUG][22-03-14][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Opening JDBC Connection
+[DEBUG][22-03-14][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 1030228826.
+[DEBUG][22-03-14][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@3d680b5a]
+[DEBUG][22-03-14][com.study.BlogMapper.selectByIf]==>  Preparing: select * from blog where 1=1 and author_name = ? 
+[DEBUG][22-03-14][com.study.BlogMapper.selectByIf]==> Parameters: 高级开发小强(String)
+[DEBUG][22-03-14][com.study.BlogMapper.selectByIf]<==      Total: 5
+[DEBUG][22-03-14][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@77167fb7]
+[DEBUG][22-03-14][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@77167fb7]
+[DEBUG][22-03-14][org.apache.ibatis.datasource.pooled.PooledDataSource]Returned connection 1997963191 to pool.
+[DEBUG][22-03-14][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@3d680b5a]
+[DEBUG][22-03-14][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@3d680b5a]
+[DEBUG][22-03-14][org.apache.ibatis.datasource.pooled.PooledDataSource]Returned connection 1030228826 to pool.
+[DEBUG][22-03-14][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][22-03-14][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][22-03-14][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][22-03-14][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][22-03-14][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][22-03-14][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][22-03-14][com.study.BlogMapper]Cache Hit Ratio [com.study.BlogMapper]: 0.0
+[DEBUG][22-03-14][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Opening JDBC Connection
+[DEBUG][22-03-14][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 1997963191.
+[DEBUG][22-03-14][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@77167fb7]
+[DEBUG][22-03-14][com.study.BlogMapper.selectByIf]==>  Preparing: select * from blog where 1=1 and author_name = ? 
+[DEBUG][22-03-14][com.study.BlogMapper.selectByIf]==> Parameters: 高级开发小强(String)
+[DEBUG][22-03-14][com.study.BlogMapper.selectByIf]<==      Total: 5
+[DEBUG][22-03-14][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@77167fb7]
+[DEBUG][22-03-14][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@77167fb7]
+[DEBUG][22-03-14][org.apache.ibatis.datasource.pooled.PooledDataSource]Returned connection 1997963191 to pool.
+[DEBUG][22-03-14][com.study.BlogMapper]Cache Hit Ratio [com.study.BlogMapper]: 0.5
+[DEBUG][22-03-22][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][22-03-22][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][22-03-22][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][22-03-22][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][22-03-22][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][22-03-22][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][22-03-22][com.study.BlogMapper]Cache Hit Ratio [com.study.BlogMapper]: 0.0
+[DEBUG][22-03-22][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Opening JDBC Connection
+[DEBUG][22-03-22][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 1997963191.
+[DEBUG][22-03-22][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@77167fb7]
+[DEBUG][22-03-22][com.study.BlogMapper.selectByIf]==>  Preparing: select * from blog where 1=1 and author_name = ? 
+[DEBUG][22-03-22][com.study.BlogMapper.selectByIf]==> Parameters: 高级开发小强(String)
+[DEBUG][22-03-22][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][22-03-22][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][22-03-22][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][22-03-22][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][22-03-22][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][22-03-22][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][22-03-22][com.study.BlogMapper]Cache Hit Ratio [com.study.BlogMapper]: 0.0
+[DEBUG][22-03-22][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Opening JDBC Connection
+[DEBUG][22-03-22][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 1997963191.
+[DEBUG][22-03-22][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@77167fb7]
+[DEBUG][22-03-22][com.study.BlogMapper.selectByIf]==>  Preparing: select * from blog where 1=1 and author_name = ? 
+[DEBUG][22-03-22][com.study.BlogMapper.selectByIf]==> Parameters: 高级开发小强(String)
