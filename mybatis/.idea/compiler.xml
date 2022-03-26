@@ -8,11 +8,19 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="mybatis-01" />
-        <module name="mybatis-05" />
-        <module name="mybatis-04" />
-        <module name="mybatis-03" />
         <module name="mybatis-02" />
+        <module name="mybatis-03" />
+        <module name="mybatis-04" />
+        <module name="mybatis-05" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="mybatis-01" target="1.5" />
+      <module name="mybatis-02" target="1.5" />
+      <module name="mybatis-03" target="1.5" />
+      <module name="mybatis-04" target="1.5" />
+      <module name="mybatis-05" target="8" />
+      <module name="study-mybatis" target="1.5" />
+    </bytecodeTargetLevel>
   </component>
 </project>
