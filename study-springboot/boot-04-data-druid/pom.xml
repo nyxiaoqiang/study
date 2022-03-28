@@ -8,10 +8,10 @@
 		<version>2.6.5</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.study.boot</groupId>
-	<artifactId>boot-01-hello</artifactId>
+	<groupId>com.example</groupId>
+	<artifactId>boot-04-data-druid</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>boot-01-hello</name>
+	<name>boot-04-data-druid</name>
 	<description>Demo project for Spring Boot</description>
 	<properties>
 		<java.version>1.8</java.version>
@@ -28,19 +28,28 @@
 			<scope>test</scope>
 		</dependency>
 
-
-		<!-- 导入配置文件处理器，配置文件进行绑定就会有提示，需要重启 -->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-configuration-processor</artifactId>
-			<optional>true</optional>
+			<artifactId>spring-boot-starter-jdbc</artifactId>
 		</dependency>
 
-		<!--引入自己写的starter-->
 		<dependency>
-			<groupId>com.example</groupId>
-			<artifactId>boot-02-my-starter-autoconfigure</artifactId>
-			<version>0.0.1-SNAPSHOT</version>
+			<groupId>com.alibaba</groupId>
+			<artifactId>druid</artifactId>
+			<version>1.0.9</version>
+		</dependency>
+
+		<dependency>
+			<groupId>mysql</groupId>
+			<artifactId>mysql-connector-java</artifactId>
+			<scope>runtime</scope>
+		</dependency>
+
+		<!-- https://mvnrepository.com/artifact/log4j/log4j -->
+		<dependency>
+			<groupId>log4j</groupId>
+			<artifactId>log4j</artifactId>
+			<version>1.2.17</version>
 		</dependency>
 	</dependencies>
 
@@ -49,20 +58,6 @@
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
-			</plugin>
-
-			<!--
-                在工作中,很多情况下我们打包是不想执行测试用例的
-                可能是测试用例不完事,或是测试用例会影响数据库数据
-                跳过测试用例执
-                -->
-			<plugin>
-				<groupId>org.apache.maven.plugins</groupId>
-				<artifactId>maven-surefire-plugin</artifactId>
-				<configuration>
-					<!--跳过项目运行测试用例-->
-					<skipTests>true</skipTests>
-				</configuration>
 			</plugin>
 		</plugins>
 	</build>
