@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.example.boot.boot05datamybatis.mapper.StudentMapper">
+
+    <select id="getStudentList" resultType="com.example.boot.boot05datamybatis.entity.Student">
+        select * from tbl_middle_student;
+    </select>
+
+</mapper>
